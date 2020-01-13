@@ -23,3 +23,6 @@ def SingUp():
     return render_template('SingUp.html')
 
 
+@app.errorhandler(404)
+def fourzerofour(e):
+    return render_template('ErrorPage.html'), 404
