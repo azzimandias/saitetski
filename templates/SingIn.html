@@ -1,10 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Вход</title>
-</head>
-<body>
+{% extends 'BASE.html' %}
 
-</body>
-</html>
+{% block links %}
+    <link rel="stylesheet" type="text/css" href="/static/SingIn.css">
+{% endblock %}
+
+{% block title %}
+    Войдите
+{% endblock %}
+
+{% block content %}
+    <div class="loginbox">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Creative-Tail-Animal-zebra.svg/256px-Creative-Tail-Animal-zebra.svg.png" class="avatar">
+        <h1>Логинься уже!</h1>
+        <form>
+            <p>Логин</p>
+            <input type="text" name="" placeholder="Введите имя пользователя">
+            <p>Пароль</p>
+            <input type="password" name="" placeholder="Введите пароль"><br>
+            <input type="submit" name="" value="OK!"><br>
+            <a href="{{ url_for('MainPage') }}">Забыли пароль?</a><br>
+            <a href="{{ url_for('SingUp') }}">Хотите зарегистрироваться?</a>
+        </form>
+    </div>
+{% endblock %}
+

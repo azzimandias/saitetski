@@ -23,6 +23,12 @@ def SingUp():
     return render_template('SingUp.html')
 
 
+@app.route('/Profile')
+def Profile():
+    return render_template('Profile.html')
+
+
 @app.errorhandler(404)
 def fourzerofour(e):
     return render_template('ErrorPage.html'), 404
+

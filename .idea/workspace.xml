@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bea3119-1562-48e0-b390-d03328735f8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/ErrorPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/ErrorPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/SingIn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/BASE.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/BASE.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ErrorPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ErrorPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/SingIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/SingIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/SingUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/SingUp.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,19 +120,33 @@
       <workItem from="1578771449596" duration="642000" />
       <workItem from="1578823746998" duration="99000" />
       <workItem from="1578824606598" duration="5310000" />
-      <workItem from="1578909034128" duration="15589000" />
+      <workItem from="1578909034128" duration="15915000" />
+      <workItem from="1578994960521" duration="2138000" />
+      <workItem from="1579023823064" duration="10636000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -158,6 +175,6 @@
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/-9.-1080.1920.1040@0.0.1920.1040" timestamp="1578693522193" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Kurs$Kurs.coverage" NAME="Kurs Coverage Results" MODIFIED="1578950846483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Kurs$Kurs.coverage" NAME="Kurs Coverage Results" MODIFIED="1579035616168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
