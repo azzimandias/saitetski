@@ -9,8 +9,7 @@ if __name__ == '__main__':
 
 @app.route('/')
 def MainPage():
-    name = 'Алексий'
-    return render_template('MainPage.html', n=name)
+    return render_template('MainPage.html')
 
 
 @app.route('/SingIn')
