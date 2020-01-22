@@ -1,21 +1,29 @@
 h1{
-    position: static;
+    position: absolute;
     color: #ffffff;
-    transform: translate(-40%, 170%);
+    bottom: 80%;
+    right: 60%;
+    /*transform: translate(-50%, 180%);*/
+    font-family: Mistral;
+    font-size: 80px;
 }
 h2{
-    position: static;
+    position: absolute;
     color: #ffffff;
-    transform: translate(-43%, 200%);
+    bottom: 88%;
+    right: 57%;
+    transform: translate(-53%, 220%);
+    font-family: Mistral;
+    font-size: 60px;
 }
 .Alway_sready{
     width: 600px;
     height: 120px;
     background: darkslategray;
     color: #ffffff;
-    bottom: 60%;
+    bottom: 75%;
     left: 60%;
-    position: relative;
+    position: absolute;
     box-sizing: border-box;
     padding: 19px 19px;
     border-radius: 20px;
@@ -38,7 +46,7 @@ h2{
         right: 0%;
     }
     to {
-        right: 250%;
+        right: 100%;
     }
 }
 /* Префикс для Chrome, Opera, Safari */
@@ -53,14 +61,16 @@ h2{
 .fox{
     animation: go-left-right 6s infinite;
     -webkit-animation: go-left-right 6s infinite;
-    position: relative;
+    position: absolute;
     width: 330px;
     height: 200px;
-    transform: translate(500%, 60%);
+    /*transform: translate(400%, 0);*/
+    /*left: 100%;*/
+    top: 40%;
 }
-article{
+.one{
     width: 100%;
-    height: 60%;
+    height: 40%;
     /*margin-top: 1px;*/
     background: darkslategray;
     color: #ffffff;
@@ -69,5 +79,60 @@ article{
     position: absolute;
     /*box-sizing: border-box;*/
     padding: 30px 30px;
+    margin: 1px;
 }
-
+.one h2{
+    position: absolute;
+    color: #ffffff;
+    left: 45%;
+    bottom: 110%;
+    /*transform: translate(-53%, 220%);*/
+    font-family: Mistral;
+    font-size: 60px;
+}
+.one h3{
+    position: absolute;
+    color: #ffffff;
+    left: 0;
+    bottom: 20%;
+    /*transform: translate(-53%, 220%);*/
+    font-size: 22px;
+    padding: 20px;
+}
+.two{
+    width: 100%;
+    height: 40%;
+    /*margin-top: 1px;*/
+    background: darkslategray;
+    color: #ffffff;
+    right: 0;
+    top: 120%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 30px 30px;
+    margin: 1px;
+}
+.two h2{
+    position: absolute;
+    color: #ffffff;
+    left: 45%;
+    bottom: 110%;
+    /*transform: translate(-53%, 220%);*/
+    font-family: Mistral;
+    font-size: 60px;
+}
+.two h3{
+    position: absolute;
+    color: #ffffff;
+    left: 0;
+    bottom: 20%;
+    /*transform: translate(-53%, 220%);*/
+    font-size: 22px;
+    padding: 20px;
+}
+.mid{
+    width: 100px;
+    height: 40px;
+    background: aliceblue;
+    position: absolute;
+}

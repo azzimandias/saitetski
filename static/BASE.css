@@ -6,3 +6,8 @@ body{
     font-family: sans-serif;
     text-align: center;
 }
+.navv{
+    position: fixed;
+    width: 100%;
+    transform: translate(0px, -25px);
+}
