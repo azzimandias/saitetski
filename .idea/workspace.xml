@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2bea3119-1562-48e0-b390-d03328735f8e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/BASE.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/BASE.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/MainPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/BASE.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/BASE.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/MainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MainPage.html" afterDir="false" />
@@ -128,7 +127,9 @@
       <workItem from="1579354392893" duration="2402000" />
       <workItem from="1579536453892" duration="35668000" />
       <workItem from="1579689380305" duration="976000" />
-      <workItem from="1579690677077" duration="11667000" />
+      <workItem from="1579690677077" duration="20743000" />
+      <workItem from="1579737847642" duration="120000" />
+      <workItem from="1579743165268" duration="881000" />
     </task>
     <servers />
   </component>
@@ -184,6 +185,6 @@
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/-9.-1080.1920.1040@0.0.1920.1040" timestamp="1578693522193" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Kurs$Kurs.coverage" NAME="Kurs Coverage Results" MODIFIED="1579725173948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Kurs$Kurs.coverage" NAME="Kurs Coverage Results" MODIFIED="1579743994666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

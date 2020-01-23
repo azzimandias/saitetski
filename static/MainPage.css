@@ -41,26 +41,9 @@ h2{
     height: 100px;
     /*transform: translate(230px, -80px);*/
 }
-@keyframes go-left-right {
-    from {
-        right: 0%;
-    }
-    to {
-        right: 100%;
-    }
-}
-/* Префикс для Chrome, Opera, Safari */
-@-webkit-keyframes go-left-right {
-    from {
-        right: 0%;
-    }
-    to {
-        right: 250%;
-    }
-}
 .fox{
-    animation: go-left-right 6s infinite;
-    -webkit-animation: go-left-right 6s infinite;
+    animation: _right 6s infinite;
+    -webkit-animation: _right 6s infinite;
     position: absolute;
     width: 330px;
     height: 200px;
@@ -79,7 +62,7 @@ h2{
     position: absolute;
     /*box-sizing: border-box;*/
     padding: 30px 30px;
-    margin: 1px;
+    margin: 0px;
 }
 .one h2{
     position: absolute;
@@ -90,11 +73,11 @@ h2{
     font-family: Mistral;
     font-size: 60px;
 }
-.one h3{
+.one p{
     position: absolute;
     color: #ffffff;
     left: 0;
-    bottom: 20%;
+    bottom: 10%;
     /*transform: translate(-53%, 220%);*/
     font-size: 22px;
     padding: 20px;
@@ -121,18 +104,64 @@ h2{
     font-family: Mistral;
     font-size: 60px;
 }
-.two h3{
+.two p{
     position: absolute;
     color: #ffffff;
     left: 0;
-    bottom: 20%;
+    bottom: 10%;
     /*transform: translate(-53%, 220%);*/
     font-size: 22px;
     padding: 20px;
 }
 .mid{
-    width: 100px;
-    height: 40px;
+    width: 100%;
+    height: 40%;
     background: aliceblue;
+    opacity: .2;
+    top: 100%;
     position: absolute;
+}
+.volf{
+    animation: _left 6s infinite;
+    -webkit-animation: _left 6s infinite;
+    position: absolute;
+    width: 430px;
+    height: 300px;
+    top: 96%;
+    left: 0;
+}
+
+@keyframes _right {
+    from {
+        right: calc(0% - 330px);
+    }
+    to {
+        right: 105%;
+    }
+}
+/* Префикс для Chrome, Opera, Safari */
+@-webkit-keyframes _right {
+    from {
+        right: calc(0% - 330px);
+    }
+    to {
+        right: 105%;
+    }
+}
+@keyframes _left {
+    from {
+        left: calc(0% - 430px);
+    }
+    to {
+        left: 105%;
+    }
+}
+/* Префикс для Chrome, Opera, Safari */
+@-webkit-keyframes _left {
+    from {
+        left: calc(0% - 430px);
+    }
+    to {
+        left: 105%;
+    }
 }
