@@ -9,5 +9,6 @@ body{
 .navv{
     position: fixed;
     width: 100%;
-    transform: translate(0px, -25px);
+    top: 0;
+    /*transform: translate(0px, -190px);*/
 }
