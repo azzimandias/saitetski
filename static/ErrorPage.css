@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background: url("https://images.wallpaperscraft.ru/image/les_tuman_derevia_151477_3840x2400.jpg") fixed;
+    font-family: sans-serif;
+    text-align: center;
+}
+h1{
+    color: #ffffff;
+    font-family: Mistral;
+    font-size: 500px;
+}
+h2{
+    color: #ffffff;
+    font-family: Mistral;
+    font-size: 50px;
+}
+.main{
+    background: black;
+    opacity: .4;
+}
+.one{
+    width: 33%;
+    height: 50%;
+    position: relative;
+    /*border: 2px solid white;*/
+}
+.two{
+    width: 33%;
+    height: 50%;
+    position: relative;
+    transform: translate(630px, -504px);
+    /*border: 2px solid white;*/
+}
+.three{
+    width: 33%;
+    height: 50%;
+    position: relative;
+    transform: translate(1260px, -1008px);
+    /*border: 2px solid white;*/
+}
+.naeb1{
+    width: 500px;
+    height: 500px;
+}
+.naeb2{
+    width: 500px;
+    height: 500px;
+}
+.naeb3{
+    width: 500px;
+    height: 500px;
+}
+.oneh{
+    position: absolute;
+    top: -10%;
+    left: 35%;
+    /*border: 2px solid white;*/
+}
+.twoh{
+    position: absolute;
+    top: -5%;
+    left: 35%;
+    /*border: 2px solid white;*/
+}
+.threeh{
+    position: absolute;
+    top: -10%;
+    left: 35%;
+    /*border: 2px solid white;*/
+}
+.left{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+.middle{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: -17%;
+    left: 25%;
+}
+.right{
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    top: 6%;
+    left: 8%;
+}
+.container{
+    width: 100%;
+    position: absolute;
+    transform: translate(33%, -600%);
+    /*border: 2px solid white;*/
+}
+.container a{
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 25px;
+    color: darkgray;
+    text-align: center;
+}
+.container a:hover{
+    color: saddlebrown;
+}
+

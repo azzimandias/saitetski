@@ -1,14 +1,6 @@
-
-/*body{
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    background: url("https://images.wallpaperscraft.ru/image/les_tuman_derevia_151477_3840x2400.jpg") fixed;
-    font-family: sans-serif;
-}*/
 .loginbox{
     width: 550px;
-    height: 650px;
+    height: 675px;
     background: darkslategray;
     color: #ffffff;
     top: 50%;
@@ -23,7 +15,8 @@ h1{
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+    font-family: Mistral;
 }
 .loginbox p{
     margin: 0;
