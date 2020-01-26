@@ -26,9 +26,11 @@ def SingUp():
 def Profile():
     return render_template('Profile.html')
 
+
 @app.route('/Loh')
 def Loh():
     return render_template('Loh.html')
+
 
 @app.errorhandler(404)
 def fourzerofour(e):

@@ -114,7 +114,8 @@ p{
 .end{
     width: 100%;
     height: 30%;
-    background: url("https://images.wallpaperscraft.ru/image/tekstura_seryy_temnyy_dark_minimalistic_minimalistichnyy_74503_1920x1080.jpg") fixed;
+    background: url("https://images.wallpaperscraft.ru/image/tekstura_seryy_temnyy_dark_minimalistic_minimalistichnyy_74503_1920x1080.jpg") center;
+    opacity: .85;
     position: absolute;
 }
 

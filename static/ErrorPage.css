@@ -17,8 +17,18 @@ h2{
     font-size: 50px;
 }
 .main{
+    width: 100%;
+    /*background: black;*/
+    /*opacity: .4;*/
+    position: absolute;
+}
+.opacity{
+    width: 10000px;
+    height: 10000px;
+    position: absolute;
     background: black;
     opacity: .4;
+    /*border: 2px solid white;*/
 }
 .one{
     width: 33%;
@@ -30,25 +40,40 @@ h2{
     width: 33%;
     height: 50%;
     position: relative;
-    transform: translate(630px, -504px);
+    left: 32%;
+    /*transform: translate(630px, -504px);*/
     /*border: 2px solid white;*/
 }
 .three{
     width: 33%;
     height: 50%;
     position: relative;
-    transform: translate(1260px, -1008px);
+    left: 65%;
+    /*transform: translate(1260px, -1008px);*/
     /*border: 2px solid white;*/
 }
+.twotwo{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.threethree{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
 .naeb1{
+    position: center;
     width: 500px;
     height: 500px;
 }
 .naeb2{
+    position: center;
     width: 500px;
     height: 500px;
 }
 .naeb3{
+    position: center;
     width: 500px;
     height: 500px;
 }
@@ -76,6 +101,7 @@ h2{
     position: absolute;
     top: 15%;
     left: 15%;
+    opacity: .6;
 }
 .middle{
     width: 400px;
@@ -83,6 +109,7 @@ h2{
     position: absolute;
     top: -17%;
     left: 25%;
+    opacity: .6;
 }
 .right{
     width: 550px;
@@ -90,11 +117,14 @@ h2{
     position: absolute;
     top: 6%;
     left: 8%;
+    opacity: .6;
 }
 .container{
     width: 100%;
     position: absolute;
-    transform: translate(33%, -600%);
+    top: 60%;
+    left: 20%;
+    /*transform: translate(33%, -600%);*/
     /*border: 2px solid white;*/
 }
 .container a{
